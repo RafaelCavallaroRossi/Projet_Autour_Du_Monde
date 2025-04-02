@@ -1,0 +1,60 @@
+.font-menu {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.font-filme {
+  font-size: 1.25rem;
+}
+.font-accordion {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+}
+#logo{
+  max-width: 960px;
+  margin: auto;
+}
+h2{
+  text-transform: uppercase;
+}
+
+
+
+h6{
+  color: #FFF;
+  text-align: center;
+  font-style: italic;
+  padding-top: 50px;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: black;
+}
+h1{
+  text-align: center;
+  padding-top: 50px;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: black;
+}
+franca{
+  color: transparent;
+  background-image: url(https://img.freepik.com/fotos-gratis/bandeira-da-franca_1401-114.jpg);
+  background-size: cover;
+  background-clip: text;
+}
+cinza{
+  color: burlywood;
+}
+body{
+  background-image: url(https://bravamundo.com.br/wp-content/uploads/2021/11/lugares-para-conhecer-na-franca.jpeg);
+  background-size: cover;
+}
+*{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+footer{
+  border-style:solid;
+  border-color: aqua;
+  margin-right: 350px;
+  margin-left: 350px;
+
+}
