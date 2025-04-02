@@ -20,7 +20,9 @@ h2{
 }
 
 
-
+ul{
+  padding-bottom: 45px;
+}
 h6{
   color: #FFF;
   text-align: center;
@@ -51,10 +53,9 @@ body{
 *{
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
-footer{
-  border-style:solid;
-  border-color: aqua;
-  margin-right: 350px;
-  margin-left: 350px;
-
+nav{
+  border-style: solid;
+  border-color:rgb(0, 0, 0);
+  border-radius: 101%;
+  background-color:color-mix(in srgb, black 60%, transparent 40%);
 }
