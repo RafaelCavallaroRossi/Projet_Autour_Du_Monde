@@ -1,8 +1,7 @@
-# Projeto PinguimFlix
-Projeto desenvolvido com Bootstrap para aulas de desenvolvimento web
+# Projeto Volta ao Mundo
+Projeto desenvolvido com intuíto de aprender a utilizar conceitos de Desenvolvimento Web.
 
-## Professor Júnior Gonçalves
-[Hiperbytes](https://hiperbytes.com.br/)
+## R4finha_132
 
 ### Tecnologias utilizadas 
 * HTML5
