@@ -1,3 +1,4 @@
+
 .font-menu {
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -24,7 +25,7 @@ ul{
   padding-bottom: 45px;
 }
 h6{
-  color: #FFF;
+  color: black;
   text-align: center;
   font-style: italic;
   padding-top: 50px;
@@ -67,16 +68,15 @@ nav{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
 
 /* Fundo da página com imagem */
 body {
   background-image: url('https://bravamundo.com.br/wp-content/uploads/2021/11/lugares-para-conhecer-na-franca.jpeg');
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
+  color: black;
 }
 
 /* Estilização da navegação */
@@ -103,7 +103,7 @@ nav {
   font-size: 1.25rem;
   text-transform: uppercase;
   font-weight: 400;
-  color: #fff;
+  color: black;
 }
 
 /* Logo centralizado */
@@ -124,7 +124,7 @@ h6 {
   text-align: center;
   font-style: italic;
   padding-top: 50px;
-  -webkit-text-stroke: 0.8px black;
+  -webkit-text-stroke: 0.8px whitesmoke;
 }
 
 /* Efeito de preenchimento de texto com imagem */
@@ -132,7 +132,7 @@ h6 {
   color: transparent;
   background-image: url('https://img.freepik.com/fotos-gratis/bandeira-da-franca_1401-114.jpg');
   background-size: cover;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -140,3 +140,32 @@ h6 {
 ul {
   padding-bottom: 45px;
 }
+
+/* Sobrescrevendo o estilo do botão grande com outline primário */
+.btn-outline-primary.btn-lg {
+  border-color:whitesmoke; /* nova cor para a borda */
+  color:white; /* nova cor do texto */
+  font-size: 1.3rem; /* aumenta o tamanho da fonte */
+  padding: 0.75rem 1.5rem; /* ajusta o espaçamento interno */
+  transition: all 0.3s ease; /* adiciona transição suave */
+  -webkit-text-stroke: 0.7px black;
+}
+
+/* Opcional: um efeito hover para melhorar a experiência */
+.btn-outline-primary.btn-lg:hover {
+  background-color:rgba(60, 110, 210, 0.8);
+  color: rgba(240, 90, 110);
+  -webkit-text-stroke: 0.7px white;
+}
+
+/*.btn-custom {
+  border-color: #ff4500;
+  color: #ff4500;
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: #ff4500;
+  color: #fff;
+}*/
