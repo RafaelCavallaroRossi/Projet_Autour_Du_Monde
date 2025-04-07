@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+                <meta name="description" content="Explore Monde France, seu portal para informações e recursos sobre a França.">
+                <meta name="author" content="R4finha_132">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
-    <title>Autour Du Monde France</title>
-  </head>
+                <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Monde France</title>
+</head>
   <body class="bg-dark">
     <div class="container">
       
-      <h1>Autour Du Monde France</h1>
-
+      <h1><cinza>Autour Du Monde </cinza><franca class="text-image">FRANCE</franca></h1>
       
 
       <!-- MENU PRINCIPAL PARA NAVEGAÇÃO -->
@@ -49,7 +51,7 @@
       </nav>
       <!-- FIM MENU -->
 
-      <h2 class="display-5 mb-4">Catálogo de Atrações Turísticas</h2>
+      <h2 class="display-5 mb-4">Atrações Turísticas</h2>
       <table class="table table-striped">
         <thead>
           <tr>
@@ -58,130 +60,46 @@
             <th scope="col">Ano de Inauguração</th>
             <th scope="col">Localização</th>
             <th scope="col">Descrição</th>
-            <th scope="col">Ações</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">E001</th>
-            <td>Torre Eiffel</td>
-            <td>1889</td>
-            <td>Paris</td>
-            <td>Um dos ícones da arquitetura mundial.</td>
-            <td><a href="atracoes/torre-eiffel.html">Ver mais</a></td>
-          </tr>
+
+          <tbody class="btn-outline-primary btn-lg">
+            <tr onclick="window.location='atracoes/torre-eiffel.html';" style="cursor: pointer;">
+              <th scope="row">E001</th>
+              <td>Torre Eiffel</td>
+              <td>1889</td>
+              <td>Paris</td>
+              <td>Um dos ícones da arquitetura mundial.</td>
+            </tr>
           <!-- Outras atrações -->
+          <tbody class="btn-outline-primary btn-lg">
+            <tr onclick="window.location='index.html';" style="cursor: pointer;">
+              <th scope="row">E001</th>
+              <td>Torre Eiffel</td>
+              <td>1889</td>
+              <td>Paris</td>
+              <td>Um dos ícones da arquitetura mundial.</td>
+            </tr>
+            <tbody class="btn-outline-primary btn-lg">
+              <tr onclick="window.location='index.html';" style="cursor: pointer;">
+                <th scope="row">E001</th>
+                <td>Torre Eiffel</td>
+                <td>1889</td>
+                <td>Paris</td>
+                <td>Um dos ícones da arquitetura mundial.</td>
+              </tr>
+
         </tbody>
       </table>
-<!--
-      <main class="bg-light p-5">
-        <h2 class="display-5 mb-4">PinguimFlix | Cadastro de Clientes</h2> 
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th scope="col">Código</th>
-              <th scope="col">Título</th>
-              <th scope="col">Ano</th>
-              <th scope="col">Direção</th>
-              <th scope="col">Classificação</th>
-              <th scope="col">Acões</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">O310</th>
-              <td>O ELO PERDIDO</td>
-              <td>2009</td>
-              <td>Brad Silberling</td>
-              <td>+12</td>
-              <td><a href="filmes/filme-02.html">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">A015</th>
-              <td>BATMAN - O CAVALEIRO DAS TREVAS</td>
-              <td>2008</td>
-              <td>Christopher Nolan</td>
-              <td>+12</td>
-              <td><a href="filmes/filme-01.html">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">B019</th>
-              <td>FORREST GUMP - O CONTADOR DE HISTÓRIAS</td>
-              <td>1994</td>
-              <td>Robert Zemeckis</td>
-              <td>Livre</td>
-              <td><a href="#">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">C111</th>
-              <td>LOGAN</td>
-              <td>2017</td>
-              <td>James Mangold</td>
-              <td>+16</td>
-              <td><a href="#">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">D281</th>
-              <td>A VIDA É BELA</td>
-              <td>1999</td>
-              <td>Roberto Benigni</td>
-              <td>Livre</td>
-              <td><a href="#">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">E312</th>
-              <td>MÃE!</td>
-              <td>2017</td>
-              <td>Darren Aronofsky</td>
-              <td>+16</td>
-              <td><a href="#">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">A015</th>
-              <td>BATMAN - O CAVALEIRO DAS TREVAS</td>
-              <td>2008</td>
-              <td>Christopher Nolan</td>
-              <td>+12</td>
-              <td><a href="#l">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">B019</th>
-              <td>FORREST GUMP - O CONTADOR DE HISTÓRIAS</td>
-              <td>1994</td>
-              <td>Robert Zemeckis</td>
-              <td>Livre</td>
-              <td><a href="#">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">C111</th>
-              <td>LOGAN</td>
-              <td>2017</td>
-              <td>James Mangold</td>
-              <td>+16</td>
-              <td><a href="#">Ver mais</a></td>
-            </tr>
-            <tr>
-              <th scope="row">D281</th>
-              <td>A VIDA É BELA</td>
-              <td>1999</td>
-              <td>Roberto Benigni</td>
-              <td>Livre</td>
-              <td><a href="#">Ver mais</a></td>
-            </tr>
-          </tbody>
-        </table>
 
         <div class="col-12 mt-4">                    
-          <a href="index.html" class="btn btn-outline-primary btn-lg">Voltar para menu</a> 
+          <a href="index.html" class="btn btn-outline-primary btn-lg btn-custom">Voltar para menu</a>
         </div>
       </main>
-
-      <footer class="p-4 bg-dark">
-        <h6 class="lead">Desenvolvido por Júnior Gonçalves</h6>
-      </footer>
-
-    </div>
-  -->
+  
+  <footer class="pt-4 pb-5">
+    <h6 class="lead">Desenvolvido por R4finha_132</h6>
+</footer>
     <!-- Modal -->
     <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -208,5 +126,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    
+    <script> document.querySelectorAll('tr[data-href]').forEach(tr => {
+      tr.addEventListener('click', () => {
+          window.location.href = tr.getAttribute('data-href');
+      });
+      });
+  </script>
+  
+</body>
 </html>
