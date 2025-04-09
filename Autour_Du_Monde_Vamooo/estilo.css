@@ -1,0 +1,114 @@
+franca{
+  color: transparent;
+  background-image: url('https://img.freepik.com/fotos-gratis/bandeira-da-franca_1401-114.jpg');
+  background-size: cover;
+  background-clip: text;
+}
+cinza{
+  color: burlywood;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+body {
+  background-image: url('https://bravamundo.com.br/wp-content/uploads/2021/11/lugares-para-conhecer-na-franca.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.6); 
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.font-accordion {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: black;
+}
+.font-menu {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+h1{
+  text-align: center;
+  padding-top: 50px;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: black;
+}
+h2{
+  text-align: center;
+  padding-top: 50px;
+  -webkit-text-stroke: 0.8px whitesmoke;
+}
+h6 {
+  text-align: center;
+  font-style: italic;
+  padding-top: 50px;
+  -webkit-text-stroke: 0.8px whitesmoke;
+}
+thead{
+  background-color:rgb(240, 240, 230);
+}
+.text-image {
+  color: transparent;
+  background-image: url('https://img.freepik.com/fotos-gratis/bandeira-da-franca_1401-114.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ul {
+  padding-bottom: 45px;
+}
+
+
+
+.btn-outline-primary.btn-lg {
+  border-color:whitesmoke; 
+  color:white;
+  font-size: 1.3rem; 
+  padding: 0.75rem 1.5rem; 
+  transition: all 0.3s ease; 
+  -webkit-text-stroke: 0.7px black;
+}
+.btn-outline-primary.btn-lg:hover {
+  background-color:rgba(60, 110, 210, 0.8);
+  color: rgba(240, 90, 110);
+  -webkit-text-stroke: 0.7px white;
+}
+.btn-primary.btn-lg{
+  border-color:whitesmoke;
+  color:white; 
+  font-size: 1.3rem; 
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+  -webkit-text-stroke: 0.7px black;
+}
+
+
+@keyframes moverImagem {
+  0% {
+    transform: translateX(-10%);
+  }
+  50% {
+    transform: translateX(253%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+.img-animada {
+  animation: moverImagem 3s infinite ease-in-out;
+}
+#Humilhacao .modal-dialog {
+  max-width: 1200px;
+}
+#Humilhacao .modal-body iframe {
+  width: 930px;
+  height: 405px;
+}
