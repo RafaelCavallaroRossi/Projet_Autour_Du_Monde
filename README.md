@@ -8,3 +8,5 @@
 * HTML5
 * CSS3
 * Boostrap
+
+file:///C:/Users/aluno.SERVER/Documents/Projet_Autour_Du_Monde-main/Autour_Du_Monde_Vamooo/index.html
